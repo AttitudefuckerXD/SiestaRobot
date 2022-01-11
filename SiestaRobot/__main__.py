@@ -92,10 +92,10 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Siesta Robot", callback_data="siesta_"),
+        InlineKeyboardButton(text="Help&", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="About Siesta Robot", callback_data="siesta_"),
         InlineKeyboardButton(
             text="Try inline!​​", switch_inline_query_current_chat=""
         ),
