@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Siesta To Your Group ➗", url="t.me/Siestaxbot?startgroup=new"),
+            text="➗ Add Devil To Your Group ➗", url="t.me/Siestaxbot?startgroup=new"),
     ],
 ]
 
