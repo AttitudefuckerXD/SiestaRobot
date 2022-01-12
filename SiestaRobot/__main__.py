@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/33c48056e7d70ec40dbef.jpg)
+✪ I'm 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ an anime-theme management bot [✨](https://telegra.ph/file/33c48056e7d70ec40dbef.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 EMI_IMG = "https://telegra.ph/file/b8fe73c5ad42d10d63f7b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
+ You can support the project by contacting @Attitude_king_vj \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Siesta Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ !</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -360,15 +360,15 @@ def siesta_about_callback(update, context):
     query = update.callback_query
     if query.data == "siesta_":
         query.message.edit_text(
-            text="๏ I'm *Siesta*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Siesta's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Siesta Robot.",
+            "\n\n_𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -435,14 +435,14 @@ def siesta_about_callback(update, context):
         )
     elif query.data == "siesta_support":
         query.message.edit_text(
-            text="*๏ Siesta support chats*"
+            text="*๏ 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Siesta.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/machinaxupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/machinaxupdate"),
+                    InlineKeyboardButton(text="Support", url="t.me/tgcalls_MusicXchat"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/tgcalls_Music_update"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="siesta_"),
@@ -455,18 +455,18 @@ def siesta_about_callback(update, context):
 
     elif query.data == "siesta_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Siesta\n"
-            "\nHere Developers Making And Give Inspiration For Made The Siesta Robot",
+            text=f"๏ Credis for 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ\n"
+            "\nHere Developers Making And Give Inspiration For Made The 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Vain", url="https://github.com/shiinobu"),
-                    InlineKeyboardButton(text="Sena-Ex", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌", url="https://t.me/Attitude_king_vj"),
+                    InlineKeyboardButton(text="Sena-ex", url="https://t.me/excrybaby"),
                  ],
                  [
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="Vain", url="https://t.me/saint_foire"),
+                    InlineKeyboardButton(text="Aryza", url="https://t.me/IdzXartez"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="siesta_"),
@@ -479,14 +479,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="๏›› This advance command for Musicplayer."
+            text="๏›› This advance Musicplayer for 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ."
             "\n\n๏ Command for admins only."
             "\n • `/reload` - For refreshing the adminlist."
             "\n • `/pause` - To pause the playback."
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
             "\n • `/end` - For end the playback."
-            "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
+            "\n • `/ping` - Test bit alive."
             "\n\n๏ Command for all members."
             "\n • `/play` <query /reply audio> - Playing music via YouTube."
             "\n • `/playlist` - To playing a playlist of groups or your personal playlist",
@@ -786,7 +786,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Siesta Robot Started!**
+                f"""**𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
