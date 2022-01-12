@@ -30,21 +30,21 @@ MEMEK = "https://telegra.ph/file/31c56fb53884915fec558.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Siesta Robot** ✨ 
+        caption=f"""✨ **Hey I'm 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ** ✨ 
 
-**Owner repo : [Vain](https://t.me/saint_foire)**
+**Owner repo : [Vijay](https://t.me/Attitude_king_vh)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
 
-**Create your own with click button bellow.**
+**My Repo is private.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/shiinobu/SiestaRobot"), 
+                        "Update", url="https://t.me/tgcalls_Music_update"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/machinaxsupport")
                 ]
