@@ -83,19 +83,19 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ✪ I'm 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ an anime-theme management bot [✨](https://telegra.ph/file/33c48056e7d70ec40dbef.jpg)
-────────────────────────
+───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
-────────────────────────
+───────────────────────
 ✪ Hit /help to see my available commands.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="Help & Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="About", callback_data="siesta_"),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="siesta_"),
+        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
             text="Try inline!​​", switch_inline_query_current_chat=""
         ),
@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+Click on the button bellow to get description about specifics command[🎀](https://telegra.ph/file/7a04e0d0eb064eccf275d.jpg)."""
 
 EMI_IMG = "https://telegra.ph/file/b8fe73c5ad42d10d63f7b.jpg"
 
