@@ -382,7 +382,7 @@ def siesta_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shiinobu/SiestaRobot"),
+                    InlineKeyboardButton(text="Music player", url="source_"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="siesta_back"),
