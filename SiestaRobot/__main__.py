@@ -382,7 +382,7 @@ def siesta_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Music player", url="https://t.me/tgcalls_Music_update/13"),
+                    InlineKeyboardButton(text="Music player", callback_data="source_"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="siesta_back"),
